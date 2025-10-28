@@ -11,8 +11,8 @@ sources:
     tables:
       - name: account_manager_region_mapping
 
-  - name: sales_database
-    schema: sales_database
+  - name: DBT_Formation
+    schema: DBT_Formation
     tables:
       - name: feedback
       - name: payment
