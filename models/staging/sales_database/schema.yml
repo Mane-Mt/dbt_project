@@ -13,9 +13,10 @@ models:
         description: "Foreign key linking the feedback to the corresponding order."
         tests:
           - relationships:
-              name: order_id_foreign_key_in_stg_sales_database__feedback
-              to: ref('stg_sales_database__order')
-              field: order_id
+              arguments :
+                name: order_id_foreign_key_in_stg_sales_database__feedback
+                to: ref('stg_sales_database__order')
+                field: order_id
 
 
   - name: stg_sales_database__order
